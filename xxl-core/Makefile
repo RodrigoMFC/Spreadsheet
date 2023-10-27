@@ -1,4 +1,4 @@
-PO_UILIB_DIR=../../po-uilib
+PO_UILIB_DIR=/home/rodrigo/winfiles-1/067/po-uilib
 JARNAME=xxl-core
 
 all:

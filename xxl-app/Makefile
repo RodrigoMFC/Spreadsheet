@@ -1,4 +1,4 @@
-PO_UILIB_DIR=/home/maraur/Documents/winfiles/067/po-uilib
+PO_UILIB_DIR=/home/rodrigo/winfiles-1/067/po-uilib
 JARNAME=xxl-app
 
 all:

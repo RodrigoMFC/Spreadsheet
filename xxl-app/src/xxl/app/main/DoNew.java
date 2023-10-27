@@ -16,7 +16,12 @@ class DoNew extends Command<Calculator> {
 
     @Override
     protected final void execute() throws CommandException {
-        // FIXME implement command
+        if (_receiver.getSpreadsheet()!=null && _receiver.changed() && Form.confirm(Prompt.saveBeforeExit())) {
+            DoSave cmd = new DoSave(_receiver);
+            cmd.execute();
+        }
+        _receiver.reset();
+        _receiver.New(Form.requestInteger(Prompt.lines()),Form.requestInteger(Prompt.columns()));
     }
 
 }

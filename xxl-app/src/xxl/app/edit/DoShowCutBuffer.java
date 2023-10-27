@@ -1,8 +1,10 @@
 package xxl.app.edit;
 
+import pt.tecnico.uilib.forms.Form;
 import pt.tecnico.uilib.menus.Command;
 import xxl.Spreadsheet;
 // FIXME import classes
+import xxl.exceptions.UnrecognizedEntryException;
 
 /**
  * Show cut buffer command.
@@ -15,7 +17,7 @@ class DoShowCutBuffer extends Command<Spreadsheet> {
 
     @Override
     protected final void execute() {
-        // FIXME implement command
+        _display.popup(_receiver.DoShowCutBuffer());
     }
 
 }

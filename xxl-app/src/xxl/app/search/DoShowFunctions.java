@@ -1,5 +1,6 @@
 package xxl.app.search;
 
+import pt.tecnico.uilib.forms.Form;
 import pt.tecnico.uilib.menus.Command;
 import xxl.Spreadsheet;
 // FIXME import classes
@@ -16,7 +17,7 @@ class DoShowFunctions extends Command<Spreadsheet> {
 
     @Override
     protected final void execute() {
-        // FIXME implement command
+        _display.popup(_receiver.ShowFunction(Form.requestString(Prompt.searchFunction())));
     }
 
 }
