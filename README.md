@@ -7,7 +7,7 @@ this was a group project with [@rodrigomfc](https://github.com/rodrigomfc) and a
 
 The po-uilib folder and corresponding classes have been provided by the university and corresponding course.
 
-## how to run:
+## How to run:
 - go to directory `cd spreadsheet-uni`
 - change CLASSPATH:
 ```bash
