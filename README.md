@@ -1,6 +1,6 @@
 # XXL application
 
-this was a group project with [@rodrigomfc](https://github.com/rodrigomfc) and as such I simply forked the project.
+this was a group project with [@martimaur](https://github.com/martimaur).
 
 * Core: `xxl-core` contains the domain classes
 * Interaction: `xxl-app` contains the user interaction classes
